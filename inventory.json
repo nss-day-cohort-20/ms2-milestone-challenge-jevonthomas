@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+    },
+    {
+      "make": "Cadillac",
+      "model": "ATS",
+      "year": "2017",
+      "price": "34,595",
+      "description": "All Sport. Nothing Less. With speed, style and agile handling, the Cadillac ATS Sedan was built for dynamic drivers. Its distinct exterior commands attention, while race-inspired features and a driver-centric interior bring excitement to every ride. It’s where the reality of the road meets the feeling of the track."
+    },
+    {
+      "make": "BMW",
+      "model": "3 - Series",
+      "year": "2017",
+      "price": "33,450",
+      "description": "In 1975, BMW sparked a revolution with the 3 Series. And more than 40 years later, it's still the benchmark of the segment it invented. Forever evolving, its style and handling make it the most popular Series in the lineup. Each of its three models—Sedan, Sports Wagon and Gran Turismo—guarantee the ultimate thrills."
+    }
+  ]
+}
