@@ -30,10 +30,19 @@ myRequest.send();
 //DOM manipulation stuff
 function outputCars(carsArr) {
 	let carList = document.getElementById("container");
+	let carContainer = document.getElementsByClassName("container-fluid");
+	let carRow = document.getElementsByClassName("row");
 	carsArr.forEach( function(cars) {
-		console.log("car make", cars.make);
-		carList.innerHTML += `<h2>${cars.make}</h2>`;
-	});
+			carRow[0].innerHTML +=
+			`<div class="col-md-4">
+					<div class="card" style="width: 20rem;">
+					  <div class="card-block">
+					    <h4 class="card-title">${cars.make}</h4>
+					    <p class="card-text">${cars.description}</p>
+					  </div>
+					</div>
+			  </div>`;
+	})
 }
 
 console.log("Last line in JS file", Date.now());
