@@ -1,0 +1,8 @@
+.black-border {
+	border: 1px solid black;
+}
+
+.selected {
+	border: 2px solid black;
+	background-color: lightblue;
+}
